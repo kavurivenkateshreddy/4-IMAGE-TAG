@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE TAG</title>
+</head>
+<body>
+<P><H1><u><font color="red"><center>IMAGE TAG(img)</center></font></u></H1></P>
+<p>--->HTML imag tag isused to dispaly image on the web paeg</p>
+<p>---> HTML (img) tag is an empty tag that contains attributes only </p>
+
+<p><font color="blue"><h2>ATTRIBUTES</h2></font></p>
+<P><ol type="1"><li><b><h2>src</h2></b>--->The 'SRC' Attribute will specifies the path or (URL) to the IMAGE</P>
+    <p>NOTE---> The image path should be in the same file location if not it will display 'alt' (it means Alternatigve Text)</li></p>
+    <li><b><h2>alt</h2></b>---> The 'ALT' Attribute will specifies the 'Alternate text' for the image.
+    <p>NOTE---> If the browser cannot display the Image .then it will display the value of the 'Alrtenate Text' </p></li>
+    <li><b><h2>width and hightt</h2></b>--->The 'WIDTH & HIGHT' attribute always define the width and hight of IMAGE in pixels
+    <p>---> Here we suggest using the 'STYLE' Attribute it will prevent sheet from changing the size of image.</p>
+    <p><font color="yellow"><b><h2>EXAMPLE:</h2></b></font> width='100' hight='100' (or) style=width:100px;hisht:100px;</p></li>
+    <li><b><h2>Aline=left/right</h2></b>--->This 'ALINE' is used to let the IMAGE to the rigt or left of thr page
+    <p>--->Aline is also calld as 'FLOAT'</p></li>
+
+<P><h2><font color="blue"><U>EXAMPLE FOR IMAGE TAG </U></font></h2></P>
+--->For image inserting we use empty tag ,There are two methods we follow while inserting images they are
+<P><font color="green"><ul type="circle"><li>OFFLINE IMAGE INSERTING</li>
+<li>ONLINE IMAGE INSERTING</li></ul></font></P>
+
+<h2><font color="green">OFFLINE IMAGE INSERTING</font></h2>
+<p>---> In ofline image inserting we insert the saved images from the compueter,we insert the image path in the  (img src="image path") in the semmicolmns</p>
+<p><font color="yellow"><b><h2>EXAMPLE: OFFLINE IMAGE</h2></b></font></p>
+<p><center><img src="HTML.png"  alt="HTML5" width="200" hight="200"></center></p>
+
+<h2><font color="green">ONLINE IMAGE INSERTING</font></h2>
+<p>-->In the online image inserting, we will insert the image link from The web page.</p>
+<p>--->Then we past the online image address in the (img src="online link") in the semicolon</p>
+<p><font color="yellow"><b><h2>EXAMPLE: ONLINE IMAGE</h2></b></font></p>
+<p><tr>
+    <center><td><img src="https://i.pinimg.com/originals/f5/96/06/f596067a3aad5b6b2acd4fabfb59f369.png" alt="K" width="200" hight="200"></td>
+    <td><img src="https://wallpapercave.com/dwp1x/wp1963699.jpg" alt="V" width="200" hight="200"></td>
+    <td><img src="https://cdn.wallpapersafari.com/56/5/Xut8Zp.jpg" alt="R" width="200" hight="200"></td></center></tr></p>
+
+<p><h2><b><font color="blue"><u>BORDER FOR IMAGE</u></font></b></h2></p>
+<P>--->By using the image border we can change the border of the Image by folowing syntax (img src="here image addres" border=1"size")<br>
+    <center><img src="https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw" border="15" width="200" hight="200"></center></P>
+
+<p><h2><b><font color="blue"><u>BACKGROUND IMAGE</u></font></b></h2></p>
+<P>--->By using the background image we can change the background into the image for this we have to enter the following syntax in the body (img src="here image addres" background="image adress")</P>
+<P></P>
+
+</body>
+</html>
